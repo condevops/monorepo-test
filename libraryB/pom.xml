@@ -26,7 +26,7 @@
         <version>2.5.3</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <scmCommentPrefix>[maven-release-plugin - ${project.artifactId}] </scmCommentPrefix>
+          <scmCommentPrefix xml:space="preserve">[maven-release-plugin - ${project.artifactId}] </scmCommentPrefix>
         </configuration>
       </plugin>
     </plugins>
