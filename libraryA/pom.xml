@@ -20,6 +20,20 @@
     <developerConnection>scm:git:git@github.com:condevops/monorepo-test.git</developerConnection>
   </scm>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
+        <configuration>
+          <autoVersionSubmodules>true</autoVersionSubmodules>
+	  <scmCommentPrefix>[maven-release-plugin - ${project.artifactId}]</scmCommentPrefix>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
   <distributionManagement>
     <repository>
       <id>cond.nexus.battery-park</id>
