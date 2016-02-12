@@ -6,7 +6,7 @@
 
   <groupId>conductor-test</groupId>
   <artifactId>hello-world-libraryA</artifactId>
-  <version>0.6.3-SNAPSHOT</version>
+  <version>0.6.3</version>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
@@ -17,7 +17,7 @@
   <scm>
     <connection>scm:git:git@github.com:condevops/monorepo-test.git</connection>
     <developerConnection>scm:git:git@github.com:condevops/monorepo-test.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>hello-world-libraryA-0.6.3</tag>
   </scm>
 
   <build>
